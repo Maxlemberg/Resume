@@ -381,10 +381,19 @@
   width: 40px;
   height: 40px;
   fill: #4b7bb2;
+  /* fill: #3cafe6; */
   transition: fill 250ms linear, transform 250ms linear;
 }
 
 .icon:hover {
   fill: #ff6c09;
   transform: scale(1.1);
+}
+
+.icon-hobbies {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  fill: #3cafe6;
 }
