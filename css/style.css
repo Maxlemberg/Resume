@@ -18,10 +18,10 @@
 @media screen and (min-width: 768px) {
   body {
     background-color: #f5f7fa;
-    padding-left: 20px;
+    /* padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 40px; */
     font-family: Montserrat;
   }
 }
@@ -219,10 +219,21 @@
   margin-bottom: 23px;
 }
 
-.name {
-  font-size: 45px;
-  font-weight: 700;
-  line-height: 89px;
+@media screen and (max-width: 767px) {
+  .name {
+    font-size: 30px;
+    font-weight: 700;
+    /* line-height: 59px; */
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+  }
 }
 
 .about-me-description {
@@ -274,8 +285,16 @@
   line-height: 24px;
 }
 
-.tech-name-box {
-  display: block;
+@media screen and (max-width: 592px) {
+  .tech-name-box {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 592px) {
+  .tech-name-box {
+    display: block;
+  }
 }
 
 /* .dots {
