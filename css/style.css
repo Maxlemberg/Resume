@@ -263,7 +263,7 @@
   line-height: 24px;
   color: #ff6b08;
 
-  transition: color 250ms linear, transform 250ms linear;
+  transition: color 150ms linear, transform 150ms linear;
 }
 
 .projects-link:hover,
@@ -417,7 +417,7 @@
   height: 40px;
   fill: #4b7bb2;
   /* fill: #3cafe6; */
-  transition: fill 250ms linear, transform 250ms linear;
+  transition: fill 150ms linear, transform 150ms linear;
 }
 
 .icon:hover {
