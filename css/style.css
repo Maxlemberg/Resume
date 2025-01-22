@@ -248,7 +248,7 @@
     font-size: 45px;
     font-weight: 700;
     line-height: 89px;
-    color: #0f790d;
+    color: #1a487d;
   }
 }
 
@@ -277,7 +277,7 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  color: #0f790d;
+  color: #1a487d;
 
   transition: color 150ms linear, transform 150ms linear;
 }
@@ -354,7 +354,8 @@
 }
 
 .profession-company {
-  color: #0f790d;
+  /* color: #0f790d; */
+  color: #1a487d;
 }
 
 .profession-time {
