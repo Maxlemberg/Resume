@@ -122,7 +122,8 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #0f790d;
   /* margin-bottom: 20px; */
   align-self: center;
 }
@@ -151,7 +152,8 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #0f790d;
   margin-bottom: 20px;
 }
 
@@ -173,7 +175,8 @@
   font-weight: 400;
   line-height: 24px;
   margin-left: 15px;
-  color: #ff6b08;
+  /* color: #ff6b08; */
+  color: #0f790d;
 }
 
 .tech-skills-text {
@@ -190,7 +193,8 @@
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: #0f790d;
   margin-bottom: 20px;
 }
 
@@ -205,7 +209,8 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #ff6b08;
+  /* color: #ff6b08; */
+  color: #0f790d;
 }
 
 .Soft-skills-text {
@@ -234,6 +239,7 @@
     font-weight: 700;
     /* line-height: 59px; */
     text-align: center;
+    color: #0f790d;
   }
 }
 
@@ -242,6 +248,7 @@
     font-size: 45px;
     font-weight: 700;
     line-height: 89px;
+    color: #0f790d;
   }
 }
 
@@ -270,7 +277,7 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  color: #ff6b08;
+  color: #0f790d;
 
   transition: color 150ms linear, transform 150ms linear;
 }
@@ -347,7 +354,7 @@
 }
 
 .profession-company {
-  color: #ff6c09;
+  color: #0f790d;
 }
 
 .profession-time {
@@ -424,13 +431,14 @@
 .icon {
   width: 40px;
   height: 40px;
-  fill: #4b7bb2;
-  /* fill: #3cafe6; */
+  fill: #1a487d;
   transition: fill 150ms linear, transform 150ms linear;
 }
 
 .icon:hover {
-  fill: #ff6c09;
+  /* fill: #f9a800; */
+  fill: #0f790d;
+  /* fill: #4b7bb2; */
   transform: scale(1.1);
 }
 
